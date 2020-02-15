@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+{% block body%}
+    <h1>This is the Home Page</h1>
+    <a href="{{ url_for('index') }}">Home</a>
+    <a href="{{ url_for('about') }}">About</a>
+    
+    {% for post in posts  %}
+        <h1>{{ post.title }}</h1>
+        <p>by {{ post.author }} on <span>{{ post.date_posted }}</span></p>
+        <p>{{ post.content }}</p>
+    {% endfor %}
+        
+{% endblock body %}
+    
