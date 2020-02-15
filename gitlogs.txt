@@ -1,0 +1,6 @@
+2225241 added templates
+0e12591 getting context variables
+0f1e95c hello world
+cfef2ad basic server running
+
+====>Sat 15 Feb 2020 12:20:35 AM EST
