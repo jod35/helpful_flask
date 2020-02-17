@@ -13,6 +13,10 @@
         {% endblock title %}
 </head>
 <body>
+   <a href="{{ url_for('index') }}">Home</a>
+   <a href="{{ url_for('about') }}">About</a>
+   <a href="{{ url_for('login') }}">Login</a>
+   <a href="{{ url_for('create_account') }}">Sign Up</a>
 {% block body %}
     
 {% endblock body %}

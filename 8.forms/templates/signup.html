@@ -1,0 +1,18 @@
+{% extends 'layout.html' %}
+{% block body %}
+    <div class="container">
+        <h1>Create An Account</h1>
+        <div class="form-group">
+            {{ form.username.label }}
+            {{ form.username(class='myfield') }}
+            <br><br>
+            {{ form.email.label }}
+            {{ form.email(class='myfield') }}
+            <br><br>
+            {{ form.password.label }}
+            {{ form.password(class='myfield') }}
+            <br>
+            {{ form.submit(class='mybtn') }}
+        </div>
+    </div>
+{% endblock body %}
