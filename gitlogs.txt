@@ -1,6 +1,10 @@
+
+31ddaeb created formms using WTForms
+60d977e added a static CSS
+881a16f adding static css files
+8795430 data in templates
+d9d790b template inheritance
 2225241 added templates
 0e12591 getting context variables
 0f1e95c hello world
 cfef2ad basic server running
-
-====>Sat 15 Feb 2020 12:20:35 AM EST
