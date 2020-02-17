@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+{% block body%}
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+    {% for message in messages %}
+        <center>
+            <div class="message">
+                {{ message }}
+            </div>
+        </center>
+    {% endfor %}
+{% endif %}
+{% endwith %}
+    <h1>This is the Home Page</h1>
+    
+    
+    {% for post in posts  %}
+        <h1>{{ post.title }}</h1>
+        <p>by {{ post.author }} on <span>{{ post.date_posted }}</span></p>
+        <p>{{ post.content }}</p>
+    {% endfor %}
+        
+{% endblock body %}
+    
