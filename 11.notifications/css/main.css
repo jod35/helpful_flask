@@ -1,0 +1,25 @@
+/* Main CSS File */
+*{
+    font-family: sans-serif;
+}
+body{
+    padding: 20px;
+}
+h1{
+    color: red;
+}
+.container{
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+.myfield{
+    padding: 10px;
+    width:80%;
+}
+.mybtn{
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px;
+    border-radius:7px;
+}
